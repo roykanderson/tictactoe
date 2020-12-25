@@ -1,0 +1,84 @@
+body {
+    background: #f4f4f4;
+    font: 50px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#msgContainer {
+    border: solid 2px #4f4f4f;
+    border-radius: 5px;
+    height: 60px;
+    width: 500px;
+    background: #e8e8e8;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#messageArea {
+    font: 20px/1.25 Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+.spot {
+    position: relative;
+    width: 32%;
+    height: 32%;
+    margin: 0;
+    float: left;
+    border: 1px solid #4f4f4f;
+}
+
+.spot:hover {
+    background: #e8e8e8;
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+[id="00"] {
+    border-left: none;
+    border-top: none;
+}
+
+[id="01"] {
+    border-top: none;
+}
+
+[id="02"] {
+    border-top: none;
+    border-right: none;
+}
+
+[id="10"] {
+    border-left: none;
+}
+[id="12"] {
+    border-right: none;
+}
+
+[id="20"] {
+    border-left: none;
+    border-bottom: none;
+}
+
+[id="21"] {
+    border-bottom: none;
+}
+
+[id="22"] {
+    border-right: none;
+    border-bottom: none;
+}
